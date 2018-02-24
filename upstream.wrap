@@ -1,0 +1,6 @@
+[wrap-file]
+directory = spdlog-0.16.3
+
+source_url = https://github.com/gabime/spdlog/archive/v0.16.3.tar.gz
+source_filename = v0.16.3.tar.gz
+source_hash = b88d7be261d9089c817fc8cee6c000d69f349b357828e4c7f66985bc5d5360b8
