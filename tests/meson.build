@@ -1,5 +1,3 @@
-test_inc = include_directories('.')
-
 prog_src = [
     'errors.cpp',
     'file_helper.cpp',
@@ -11,5 +9,5 @@ prog_src = [
     'main.cpp'
 ]
 
-tests_exe = executable('tests_exe', prog_src, include_directories : [inc, test_inc], dependencies : thread_dep)
+tests_exe = executable('tests_exe', prog_src, include_directories : inc, dependencies : thread_dep)
 test('tests', tests_exe)
