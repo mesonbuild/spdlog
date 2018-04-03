@@ -1,4 +1,4 @@
-his repository contains a Meson build definition for project spdlog.
+This repository contains a Meson build definition for project spdlog.
 
 All files in this repository have the same license as the original project.
 
