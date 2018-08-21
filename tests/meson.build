@@ -3,6 +3,7 @@ prog_src = [
     'file_helper.cpp',
     'file_log.cpp',
     'test_misc.cpp',
+    'test_mpmc_q.cpp',
     'test_pattern_formatter.cpp',
     'test_async.cpp',
     'registry.cpp',
