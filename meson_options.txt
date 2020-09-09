@@ -1,1 +1,3 @@
-option('tests', type: 'boolean', value: true, description: 'Build the unit tests')
+option('tests', type: 'boolean', value: false, description: 'Build the unit tests')
+
+option('compile_library', type: 'boolean', value: false, description: 'Builds a static/shared lib for faster compile times*')
