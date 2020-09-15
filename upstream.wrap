@@ -1,0 +1,9 @@
+[wrap-file]
+directory = spdlog-1.8.2
+
+source_url = https://github.com/gabime/spdlog/archive/v1.8.2.tar.gz
+source_filename = v1.8.2.tar.gz
+source_hash = e20e6bd8f57e866eaf25a5417f0a38a116e537f1a77ac7b5409ca2b180cec0d5
+
+[provide]
+spdlog = spdlog_dep
